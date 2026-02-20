@@ -1,0 +1,2 @@
+public class desafio2 {
+}
