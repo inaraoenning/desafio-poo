@@ -20,12 +20,11 @@ public class desafio1 {
                     """);
             opcao = sc.nextInt();
 
-            if (opcao == 5) {
+            if (opcao < 1 || opcao == 5) {
                 System.out.println("Sair");
                 sc.close();
                 return; // para o código não continuar executando
             }
-
 
             System.out.print("Informe o primeiro numero:");
             int num1 = sc.nextInt();
